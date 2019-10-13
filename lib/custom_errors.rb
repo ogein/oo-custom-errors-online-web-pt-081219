@@ -26,6 +26,5 @@ class Person
 end
  
 beyonce = Person.new("Beyonce")
-jayz = Person.new("Jay-Z")
-beyonce.get_married(jayz)
+beyonce.get_married("Jay-Z")
 puts beyonce.name
